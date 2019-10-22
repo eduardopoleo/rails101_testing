@@ -1,5 +1,5 @@
 class Slug
-  def test
+  def calculate
     'test'
   end  
 end

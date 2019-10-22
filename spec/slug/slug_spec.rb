@@ -2,9 +2,9 @@ require_relative '../spec_helper'
 require_relative '../../app/slug/slug'
 
 describe Slug do
-  describe '#test' do
+  describe '#calculate' do
     it "returns 'test'" do
-      expect(Slug.new.test).to eq('test')
+      expect(Slug.new.calculate).to eq('test')
     end
   end
 end
@@ -37,6 +37,7 @@ end
 # 9) Should not end in a _
 # 'title.' => 'title'
 
+# For later when we work in the app
 # 10) If repeated should add number at the end
 # 'title' => 'title'
 # 'title' => 'title_2'
